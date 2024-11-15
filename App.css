@@ -1,0 +1,106 @@
+body {
+  display:block !important;
+}
+
+.App {
+  text-align: center;
+  padding:0 3vw 3vw;
+  background-color:whitesmoke;
+  color: black;
+}
+
+.stick {
+ text-align:center;
+ position: sticky;
+ top:0px;
+ margin:0px;
+ background-color: #1b1c1d;
+ color:white;
+ padding: 0px;
+ font-size: 20px;
+ font-weight: bold;
+ z-index:9999;
+}
+
+.stick > h1 {
+  margin:0;
+}
+
+
+/* for the About Section */
+.About {
+  width:86vw;
+  margin-left:7vw;
+}
+.About > h2 {
+  margin:0;
+}
+.aboutQuote {
+  padding:0 2em;
+  border: 3px solid gray;
+  border-radius: 15px;
+}
+
+/* for the minor section */
+.minorCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.minorItem {
+  margin: 1em;
+  padding-top: 1em;
+}
+
+/* for the People Section */
+.peopleList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.peopleList > * {
+  flex: 1 1 200px;
+}
+
+.peopleListItem {
+  min-height: 250px;
+  max-width: 200px;
+  margin: 1em;
+  padding-top: 1em;
+  border: 3px solid #ddd;
+  border-radius: 16px;
+}
+
+.peopleListItem > img {
+  max-width: 150px;
+}
+
+/* for the employment tab */
+
+.degreeStatistics {
+  margin: 20px;
+}
+
+.statisticsCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.statisticsCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.statisticsCard h3 {
+  font-size: 24px;
+  color: #007bff;
+}
+
+.statisticsCard p {
+  color: #333;
+}
