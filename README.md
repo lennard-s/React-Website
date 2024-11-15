@@ -1,5 +1,7 @@
 Lennard Szyperski P2
 
+** UNFORTUNATELY THE API THIS WEBSITE CALLED ON IS NO LONGER AVAILABLE SO THE SITE CANNOT BE VISITED **
+
 Elements Used: 
 	Semantic UI:
 		- Button
